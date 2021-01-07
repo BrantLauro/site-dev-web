@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.header{
+    height: 60px;
+}
+
+.header, .headerContent{
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerContent{
+    margin: auto;
+    width: 99%;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.logo, .icon-menu{
+    margin: 5px;
+    color: white;
+}
+
+.icon-menu{
+    display: block;
+    width: 40px ;
+    height: 40px;
+    font-size: 30px;
+    background: blue;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav{
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuLink{
+    display: block;
+    padding: 15px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+}
+
+.menuLink:hover{
+    background:white ;
+    color: blue;
+}
+
+.show{
+    left: 0%;
+}
+
+.banner{
+    margin-top: -60px;
+    z-index: -1000;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bannerContent{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bannerTitle{
+    font-size: 25px;
+}
+
+.bannerTxt{
+    display: none;
+}
+
+.infoColumn{
+    background: blue;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.selectionTitle{
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+
+.coursesColumn{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.coursesDesc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white; 
+    background: rgba(0,0,0,0.5);
+    width:60%;
+	height:100%;
+    padding: 5px;
+}
+
+.coursesTitle{
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.footer{
+    background: rgb(50, 50, 50);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.socialNetwork [class^=icon-]{
+    display: inline-block;
+    color: rgb(50,50,50);
+    text-decoration: none;
+    font-size: 35px;
+    padding:5px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+}
+
+@media(min-width: 480px){
+    .logo{
+        font-size: 40px;
+    }
+
+    .bannerTitle{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+
+    .bannerTxt{
+        display: block;
+        font-size: 16px;
+        margin: 7px 0;
+    }
+
+    .info, .coursesColumn{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -90px;
+    }
+
+    .infoColumn{
+        width: 32%;
+    }
+    
+    .infoTitle{
+        font-size: 25px;
+        margin: 5px 0;
+    }
+
+    .selectionTitle{
+        width: 100%;
+    }
+    
+    .cursosDesc{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .coursesColumn{
+        width: 49%;
+    }
+
+    .footer, .socialNetwork[class^="icon-"]{
+        margin: 0 10px;
+    }
+}
+
+@media(min-width: 768px){
+    .bannerTitle{
+        font-size: 50px;
+    }
+
+    .coursesTitle{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 1024px){
+    .header{
+        width: 1000px;
+    }
+
+    .nav{
+        position: static;
+        width: auto;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    .menuLink{
+        background:none;
+        font-size: 20px;
+    }
+
+    .select{
+        color: white;
+        background: blue;
+    }
+
+    .bannerTitle{
+        font-size: 60px;
+    }
+
+    .bannerTxt{
+        font-size: 25px;
+    }
+
+    .infoTitle{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .info{
+        margin-top: -120px;
+    }
+
+    .infoColumn{
+        padding: 30px;
+    }
+
+    .selectionTitle{
+        font-size: 50px;
+        margin: 30px 0;
+    }
+    
+    .coursesDesc{
+        padding: 20px;
+    }
+
+    .coursesTitle{
+        font-size: 50px;
+    }
+
+    .coursesTxt{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1280px){
+    .header{
+        width: 1200px;
+        margin: 0 auto; 
+    }
+
+    .logo{
+        font-size: 60px;
+    }
+
+    .bannerContent{
+        top: 40%;
+    }
+
+    .info{
+        margin-top: -220px;
+    }
+}
