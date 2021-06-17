@@ -19,11 +19,11 @@
 
  ```
  
- [Click Here to see the site](https://brantlauro.github.io/site-dev-web/)
+ **[Click Here](https://brantlauro.github.io/site-dev-web/) to see the site!**
  
  ## Here is the home of the site
  
- ![Captura de tela de 2021-01-07 20-24-43](https://user-images.githubusercontent.com/60024796/104105158-1ae3ca80-528b-11eb-83e6-3c6e2fac18c2.png)
+ ![Site_dev_web](https://user-images.githubusercontent.com/60024796/122445752-3b215f00-cf78-11eb-80c1-26997301e5cf.png)
  
  ## Here the page of the course in PT-BR
  
