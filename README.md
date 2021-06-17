@@ -1,7 +1,17 @@
 # site-dev-web
  A beautiful site that I created in a Nova Cursos course
  
- Thats the **first** web site that I created with a course, I studied for 25 hours and learned HTML5, CSS3 and a little of JavaScript
+ That is the **first** web site that I created with a course, I studied for 25 hours and learned HTML5, CSS3 and a little of JavaScript
+ 
+ ```
+  ____  _ _         ____              __        __   _     
+/ ___|(_) |_ ___  |  _ \  _____   __ \ \      / /__| |__  
+\___ \| | __/ _ \ | | | |/ _ \ \ / /  \ \ /\ / / _ \ '_ \ 
+ ___) | | ||  __/ | |_| |  __/\ V /    \ V  V /  __/ |_) |
+|____/|_|\__\___| |____/ \___| \_/      \_/\_/ \___|_.__/ 
+                                                          
+
+ ```
  
  [Click Here to see the site](https://brantlauro.github.io/site-dev-web/)
  
